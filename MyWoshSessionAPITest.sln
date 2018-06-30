@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWoshSessionAPITest", "MyWoshSessionAPITest\MyWoshSessionAPITest.csproj", "{86BAE4AE-84DF-462E-B6A8-61FC576123F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWoshSessionDataAPITest", "MyWoshSessionDataAPITest\MyWoshSessionDataAPITest.csproj", "{029B16E2-C3B5-41B7-9403-673D745A601B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86BAE4AE-84DF-462E-B6A8-61FC576123F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86BAE4AE-84DF-462E-B6A8-61FC576123F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86BAE4AE-84DF-462E-B6A8-61FC576123F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86BAE4AE-84DF-462E-B6A8-61FC576123F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{029B16E2-C3B5-41B7-9403-673D745A601B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029B16E2-C3B5-41B7-9403-673D745A601B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029B16E2-C3B5-41B7-9403-673D745A601B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029B16E2-C3B5-41B7-9403-673D745A601B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B31E68DB-8115-4CBD-AC52-BD2A06E35A9F}
+	EndGlobalSection
+EndGlobal
