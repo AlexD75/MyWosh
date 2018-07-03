@@ -7,8 +7,17 @@ pipeline {
   }
   stages {
     stage('Build') {
-      steps {
-        sh 'mvn --version'
+      parallel {
+        stage('Build') {
+          steps {
+            sh 'mvn --version'
+          }
+        }
+        stage('Build 2') {
+          steps {
+            error 'STOP!'
+          }
+        }
       }
     }
   }
