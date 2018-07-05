@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWoshSessionAPITest", "MyWoshSessionAPITest\MyWoshSessionAPITest.csproj", "{86BAE4AE-84DF-462E-B6A8-61FC576123F9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{029B16E2-C3B5-41B7-9403-673D745A601B} = {029B16E2-C3B5-41B7-9403-673D745A601B}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWoshSessionDataAPITest", "MyWoshSessionDataAPITest\MyWoshSessionDataAPITest.csproj", "{029B16E2-C3B5-41B7-9403-673D745A601B}"
 EndProject

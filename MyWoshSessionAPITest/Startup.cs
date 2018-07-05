@@ -68,7 +68,6 @@ namespace MyWoshSessionAPITest
             });
 
             app.UseMvc();
-            app.UseAuthentication();
         }
     }
 }

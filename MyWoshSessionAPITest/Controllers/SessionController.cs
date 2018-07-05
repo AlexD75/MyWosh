@@ -39,7 +39,6 @@ namespace MyWoshSessionAPITest.Controllers
         [HttpGet("ActiveSessions")]
         [ProducesResponseType(200, Type = typeof(IEnumerable<SessionData>))]
         [ProducesResponseType(404)]
-        [Authorize]
         public async Task<IActionResult> ActiveSessions()
         {
             using (var client = getClientDataAPI(Configuration))
@@ -65,7 +64,6 @@ namespace MyWoshSessionAPITest.Controllers
         [ProducesResponseType(200, Type = typeof(SessionData))]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
-        [Authorize]
         public async Task<IActionResult> Get(string SessionId)
         {
             Guid SessionGuid;
